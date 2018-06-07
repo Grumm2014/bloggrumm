@@ -7,8 +7,8 @@
 <body>
 <h2>Welcome to the site {{$user['name']}}</h2>
 <br/>
-Your registered email-id is {{$user['email']}} , Please click on the below link to verify your email account
+Your registered email-id is {{$user['email']}} , Пожалуйста, пройдите по ссылке ниже, чтобы подтвердить свою учетную запись и адрес электронной почты.
 <br/>
-<a href="{{url('user/verify', $user->verifyUser->token)}}">Verify Email</a>
+<a href="{{url('user/verify', $user->verifyUser->token)}}">Подтвердить Email</a>
 </body>
 </html>
